@@ -8,11 +8,12 @@ function App() {
 
   return (
     <div >
-     <Sidenav/>
-     <Main/>
-     <Trabajos/>
+     <h1 className="text-4xl font-bold  text-left text-[#001b5e] bg-cyan-400 py-6">
+        Prueba Tecnica React Developer
+      </h1>
+     
      <Projects/>
-     <Contact/>
+     
     </div>
   )
 }
